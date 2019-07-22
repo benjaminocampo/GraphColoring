@@ -1,0 +1,64 @@
+Grafo_1
+    Grafo relativamente chico, Deberia dar mas colores con WelshPowell que con otros reordenes.(esta construido para que WelshPowell ande particularmente mal)
+
+Grafo_2
+    queen10.Numero de vertices=100. Numero de lados=1470.
+    Greedy en OrdenNatural:16 colores
+    Greedy en WelshPowell:17 colores
+    100SwitchVertices lo baja a 14.
+    RMBCs lo bajan a 13 y luego a 12
+    X(G) es 10. 
+
+Grafo_3
+    queen13.Numero de vertices=169. Numero de lados=3328
+    Greedy en OrdenNatural:21 colores
+    Greedy en WelshPowell:23 colores
+    100 SwitchVertices lo baja a 19 y con los RMBCs se lo puede bajar a 17. X(G)=13.
+
+Grafo_4
+    School1 de la pagina de DIMACS. Numero de vertices=385. Numero de lados=19095
+    Greedy en OrdenNatural:42 colores
+    Greedy en WelshPowell:34 colores
+    100 SwitchVertices lo baja a: 32
+    Con 426 RMBCs logro bajarlo a 14,pero incluso con 3000 RMBC no parece mejorar.
+
+Grafo_5
+    Grafo con una trampa chiquita para testear un error especifico.
+
+Grafo_6
+    Numero de vertices=1010. Numero de lados=60980
+    Greedy en OrdenNatural:42 colores
+    Greedy en WelshPowell:34 colores
+    Con SwitchVertices y RMBCS se lo puede bajar a 14 colores.
+    X(G) es mayor o igual que 11.
+
+Grafo_7
+    Numero de vertices=3779. Numero de lados=371357
+    Greedy en OrdenNatural:77 colores
+    Greedy en WelshPowell:97 colores
+    Lo puedo bajar con SwitchVertices y RMBCs a 72 colores, pero X(G)=61.
+
+Los siguientes grafos son completos. Deben obtener siempre esa cantidad de colores con Greedy en cualquier orden
+
+Grafo_8
+    K100: X(G)=100 
+
+Grafo_9
+    K500: X(G)=500 
+
+Grafo_10
+    K1000: X(G)=1000
+
+Estos grafos son bipartitos, pero Greedy en OrdenNatural no da 2. 
+
+Grafo_16
+    5576 vertices, 6748 lados
+
+Grafo_17
+    Numero de vertices=20002. Numero de lados=49601 Greedy en OrdenNatural:6 colores
+
+Grafo_18
+    Numero de vertices=20482. Numero de lados=56705 Greedy en OrdenNatural:6 colores
+
+Grafo_19
+    casi 1 millón de vértices y lados.
