@@ -1,4 +1,4 @@
-##Compilation
+## Compilation
 gcc -IWahlaan -Wall -Wextra -O3 -std=c99 *.c
 
 After compiling the project you will have an executable file to run it.
